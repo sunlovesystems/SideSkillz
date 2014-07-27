@@ -1,18 +1,18 @@
 //
-//  SLEmployerCreateProjectViewController.m
+//  SLEmployerProjectSubmittedViewController.m
 //  Skillzy
 //
-//  Created by Transcend on 7/26/14.
+//  Created by Transcend on 7/27/14.
 //  Copyright (c) 2014 SunLoveSystems. All rights reserved.
 //
 
-#import "SLEmployerCreateProjectViewController.h"
+#import "SLEmployerProjectSubmittedViewController.h"
 
-@interface SLEmployerCreateProjectViewController ()
+@interface SLEmployerProjectSubmittedViewController ()
 
 @end
 
-@implementation SLEmployerCreateProjectViewController
+@implementation SLEmployerProjectSubmittedViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,12 +35,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (BOOL)textFieldShouldReturn:(UITextField *)textField
-{
-    [textField resignFirstResponder];
-    return YES;
-}
-
 /*
 #pragma mark - Navigation
 
@@ -52,6 +46,6 @@
 }
 */
 
-- (IBAction)employerCreateProjectSubmitButtonPressed:(id)sender {
+- (IBAction)employerProjectSubmittedButtonPressed:(id)sender {
 }
 @end

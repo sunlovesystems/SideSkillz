@@ -10,7 +10,6 @@
 
 @interface SLEmployerCreateProjectViewController : UIViewController
 
-@property (strong, nonatomic) IBOutlet UITextField *employerProjectNameField;
 @property (strong, nonatomic) IBOutlet UITextField *employerProjectDescriptionField;
 @property (strong, nonatomic) IBOutlet UITextField *employerProjectDurationField;
 @property (strong, nonatomic) IBOutlet UITextField *employerProjectMaxHourlyRateField;

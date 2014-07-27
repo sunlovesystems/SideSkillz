@@ -14,6 +14,7 @@
 @property (strong, nonatomic) IBOutlet UITextField *employerWebSiteField;
 @property (strong, nonatomic) IBOutlet UITextField *employerContactNameField;
 @property (strong, nonatomic) IBOutlet UITextField *employerContactEmailField;
+@property (strong, nonatomic) IBOutlet UITextField *employerPasswordField;
 
 - (IBAction)employerSignupButtonPressed:(id)sender;
 

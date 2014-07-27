@@ -27,6 +27,13 @@
 		F85409F4198443FE006D3A7C /* SLSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409F3198443FE006D3A7C /* SLSignInViewController.m */; };
 		F85409F719844E08006D3A7C /* SLEmployerSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409F619844E08006D3A7C /* SLEmployerSignupViewController.m */; };
 		F85409FD19844E48006D3A7C /* SLEmployeeSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409FC19844E48006D3A7C /* SLEmployeeSignupViewController.m */; };
+		F8C82E7B19853A6500217CA4 /* SideSkillzBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C82E7A19853A6500217CA4 /* SideSkillzBanner.png */; };
+		F8C82E7E1985517F00217CA4 /* SLEmployerProjectSubmittedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C82E7D1985517F00217CA4 /* SLEmployerProjectSubmittedViewController.m */; };
+		F8C82E811985558800217CA4 /* SLEmployeeSignupConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C82E801985558800217CA4 /* SLEmployeeSignupConfirmViewController.m */; };
+		F8E4ADFF19855E1400E953A6 /* SLEmployeeDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E4ADFE19855E1400E953A6 /* SLEmployeeDashboardViewController.m */; };
+		F8E4AE0119855FB900E953A6 /* SideSkillzReviews.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E4AE0019855FB900E953A6 /* SideSkillzReviews.png */; };
+		F8E4AE051985613D00E953A6 /* Nina2.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E4AE041985613D00E953A6 /* Nina2.png */; };
+		F8E4AE07198562D100E953A6 /* Emailicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F8E4AE06198562D100E953A6 /* Emailicon.png */; };
 		F8FF2E6B19848AD500B4F405 /* SLEmployerDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF2E6A19848AD500B4F405 /* SLEmployerDashboardViewController.m */; };
 		F8FF2E6D19848B4900B4F405 /* CafeStartup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FF2E6C19848B4900B4F405 /* CafeStartup.jpg */; };
 		F8FF2E701984953600B4F405 /* SLEmployerCreateProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF2E6F1984953600B4F405 /* SLEmployerCreateProjectViewController.m */; };
@@ -73,6 +80,16 @@
 		F85409F619844E08006D3A7C /* SLEmployerSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployerSignupViewController.m; sourceTree = "<group>"; };
 		F85409FB19844E48006D3A7C /* SLEmployeeSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEmployeeSignupViewController.h; sourceTree = "<group>"; };
 		F85409FC19844E48006D3A7C /* SLEmployeeSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployeeSignupViewController.m; sourceTree = "<group>"; };
+		F8C82E7A19853A6500217CA4 /* SideSkillzBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideSkillzBanner.png; sourceTree = "<group>"; };
+		F8C82E7C1985517F00217CA4 /* SLEmployerProjectSubmittedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEmployerProjectSubmittedViewController.h; sourceTree = "<group>"; };
+		F8C82E7D1985517F00217CA4 /* SLEmployerProjectSubmittedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployerProjectSubmittedViewController.m; sourceTree = "<group>"; };
+		F8C82E7F1985558800217CA4 /* SLEmployeeSignupConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEmployeeSignupConfirmViewController.h; sourceTree = "<group>"; };
+		F8C82E801985558800217CA4 /* SLEmployeeSignupConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployeeSignupConfirmViewController.m; sourceTree = "<group>"; };
+		F8E4ADFD19855E1400E953A6 /* SLEmployeeDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEmployeeDashboardViewController.h; sourceTree = "<group>"; };
+		F8E4ADFE19855E1400E953A6 /* SLEmployeeDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployeeDashboardViewController.m; sourceTree = "<group>"; };
+		F8E4AE0019855FB900E953A6 /* SideSkillzReviews.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SideSkillzReviews.png; sourceTree = "<group>"; };
+		F8E4AE041985613D00E953A6 /* Nina2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nina2.png; sourceTree = "<group>"; };
+		F8E4AE06198562D100E953A6 /* Emailicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emailicon.png; sourceTree = "<group>"; };
 		F8FF2E6919848AD500B4F405 /* SLEmployerDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEmployerDashboardViewController.h; sourceTree = "<group>"; };
 		F8FF2E6A19848AD500B4F405 /* SLEmployerDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployerDashboardViewController.m; sourceTree = "<group>"; };
 		F8FF2E6C19848B4900B4F405 /* CafeStartup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CafeStartup.jpg; sourceTree = "<group>"; };
@@ -142,6 +159,8 @@
 				F85409C6198404D5006D3A7C /* SLAppDelegate.h */,
 				F85409C7198404D5006D3A7C /* SLAppDelegate.m */,
 				F85409C9198404D5006D3A7C /* Main.storyboard */,
+				F8C82E7C1985517F00217CA4 /* SLEmployerProjectSubmittedViewController.h */,
+				F8C82E7D1985517F00217CA4 /* SLEmployerProjectSubmittedViewController.m */,
 				F8FF2E6E1984953600B4F405 /* SLEmployerCreateProjectViewController.h */,
 				F8FF2E6F1984953600B4F405 /* SLEmployerCreateProjectViewController.m */,
 				F8FF2E6919848AD500B4F405 /* SLEmployerDashboardViewController.h */,
@@ -150,6 +169,10 @@
 				F85409F619844E08006D3A7C /* SLEmployerSignupViewController.m */,
 				F85409FB19844E48006D3A7C /* SLEmployeeSignupViewController.h */,
 				F85409FC19844E48006D3A7C /* SLEmployeeSignupViewController.m */,
+				F8C82E7F1985558800217CA4 /* SLEmployeeSignupConfirmViewController.h */,
+				F8C82E801985558800217CA4 /* SLEmployeeSignupConfirmViewController.m */,
+				F8E4ADFD19855E1400E953A6 /* SLEmployeeDashboardViewController.h */,
+				F8E4ADFE19855E1400E953A6 /* SLEmployeeDashboardViewController.m */,
 				F85409CC198404D5006D3A7C /* SLViewController.h */,
 				F85409CD198404D5006D3A7C /* SLViewController.m */,
 				F85409F2198443FE006D3A7C /* SLSignInViewController.h */,
@@ -163,6 +186,10 @@
 		F85409BE198404D5006D3A7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F8E4AE06198562D100E953A6 /* Emailicon.png */,
+				F8E4AE041985613D00E953A6 /* Nina2.png */,
+				F8E4AE0019855FB900E953A6 /* SideSkillzReviews.png */,
+				F8C82E7A19853A6500217CA4 /* SideSkillzBanner.png */,
 				F8FF2E73198498FC00B4F405 /* cooking_food.jpeg */,
 				F8FF2E711984989A00B4F405 /* guitar_music.jpg */,
 				F8FF2E6C19848B4900B4F405 /* CafeStartup.jpg */,
@@ -276,9 +303,13 @@
 				F85409EF19840FBC006D3A7C /* INeedWorkDone2.jpg in Resources */,
 				F8FF2E6D19848B4900B4F405 /* CafeStartup.jpg in Resources */,
 				F8FF2E74198498FC00B4F405 /* cooking_food.jpeg in Resources */,
+				F8E4AE07198562D100E953A6 /* Emailicon.png in Resources */,
+				F8E4AE051985613D00E953A6 /* Nina2.png in Resources */,
+				F8E4AE0119855FB900E953A6 /* SideSkillzReviews.png in Resources */,
 				F8FF2E721984989A00B4F405 /* guitar_music.jpg in Resources */,
 				F85409C2198404D5006D3A7C /* InfoPlist.strings in Resources */,
 				F85409CB198404D5006D3A7C /* Main.storyboard in Resources */,
+				F8C82E7B19853A6500217CA4 /* SideSkillzBanner.png in Resources */,
 				F85409F119840FC2006D3A7C /* INeedWorkDone.jpg in Resources */,
 				F85409ED19840C42006D3A7C /* IWanttoWork.jpg in Resources */,
 			);
@@ -299,14 +330,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8C82E811985558800217CA4 /* SLEmployeeSignupConfirmViewController.m in Sources */,
 				F8FF2E701984953600B4F405 /* SLEmployerCreateProjectViewController.m in Sources */,
 				F85409C4198404D5006D3A7C /* main.m in Sources */,
 				F85409F4198443FE006D3A7C /* SLSignInViewController.m in Sources */,
 				F85409FD19844E48006D3A7C /* SLEmployeeSignupViewController.m in Sources */,
 				F85409F719844E08006D3A7C /* SLEmployerSignupViewController.m in Sources */,
 				F85409CE198404D5006D3A7C /* SLViewController.m in Sources */,
+				F8C82E7E1985517F00217CA4 /* SLEmployerProjectSubmittedViewController.m in Sources */,
 				F8FF2E6B19848AD500B4F405 /* SLEmployerDashboardViewController.m in Sources */,
 				F85409C8198404D5006D3A7C /* SLAppDelegate.m in Sources */,
+				F8E4ADFF19855E1400E953A6 /* SLEmployeeDashboardViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
