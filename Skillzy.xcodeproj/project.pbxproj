@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85409B8198404D5006D3A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85409B7198404D5006D3A7C /* Foundation.framework */; };
+		F85409BA198404D5006D3A7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85409B9198404D5006D3A7C /* CoreGraphics.framework */; };
+		F85409BC198404D5006D3A7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85409BB198404D5006D3A7C /* UIKit.framework */; };
+		F85409C2198404D5006D3A7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F85409C0198404D5006D3A7C /* InfoPlist.strings */; };
+		F85409C4198404D5006D3A7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409C3198404D5006D3A7C /* main.m */; };
+		F85409C8198404D5006D3A7C /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409C7198404D5006D3A7C /* SLAppDelegate.m */; };
+		F85409CB198404D5006D3A7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85409C9198404D5006D3A7C /* Main.storyboard */; };
+		F85409CE198404D5006D3A7C /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409CD198404D5006D3A7C /* SLViewController.m */; };
+		F85409D0198404D5006D3A7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85409CF198404D5006D3A7C /* Images.xcassets */; };
+		F85409D7198404D6006D3A7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85409D6198404D6006D3A7C /* XCTest.framework */; };
+		F85409D8198404D6006D3A7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85409B7198404D5006D3A7C /* Foundation.framework */; };
+		F85409D9198404D6006D3A7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85409BB198404D5006D3A7C /* UIKit.framework */; };
+		F85409E1198404D6006D3A7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F85409DF198404D6006D3A7C /* InfoPlist.strings */; };
+		F85409E3198404D6006D3A7C /* SkillzyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409E2198404D6006D3A7C /* SkillzyTests.m */; };
+		F85409ED19840C42006D3A7C /* IWanttoWork.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85409EC19840C42006D3A7C /* IWanttoWork.jpg */; };
+		F85409EF19840FBC006D3A7C /* INeedWorkDone2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85409EE19840FBC006D3A7C /* INeedWorkDone2.jpg */; };
+		F85409F119840FC2006D3A7C /* INeedWorkDone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F85409F019840FC2006D3A7C /* INeedWorkDone.jpg */; };
+		F85409F4198443FE006D3A7C /* SLSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409F3198443FE006D3A7C /* SLSignInViewController.m */; };
+		F85409F719844E08006D3A7C /* SLEmployerSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409F619844E08006D3A7C /* SLEmployerSignupViewController.m */; };
+		F85409FD19844E48006D3A7C /* SLEmployeeSignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F85409FC19844E48006D3A7C /* SLEmployeeSignupViewController.m */; };
+		F8FF2E6B19848AD500B4F405 /* SLEmployerDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF2E6A19848AD500B4F405 /* SLEmployerDashboardViewController.m */; };
+		F8FF2E6D19848B4900B4F405 /* CafeStartup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FF2E6C19848B4900B4F405 /* CafeStartup.jpg */; };
+		F8FF2E701984953600B4F405 /* SLEmployerCreateProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8FF2E6F1984953600B4F405 /* SLEmployerCreateProjectViewController.m */; };
+		F8FF2E721984989A00B4F405 /* guitar_music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8FF2E711984989A00B4F405 /* guitar_music.jpg */; };
+		F8FF2E74198498FC00B4F405 /* cooking_food.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F8FF2E73198498FC00B4F405 /* cooking_food.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85409DA198404D6006D3A7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85409AC198404D5006D3A7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85409B3198404D5006D3A7C;
+			remoteInfo = Skillzy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F85409B4198404D5006D3A7C /* Skillzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skillzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85409B7198404D5006D3A7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F85409B9198404D5006D3A7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F85409BB198404D5006D3A7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F85409BF198404D5006D3A7C /* Skillzy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Skillzy-Info.plist"; sourceTree = "<group>"; };
+		F85409C1198404D5006D3A7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F85409C3198404D5006D3A7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F85409C5198404D5006D3A7C /* Skillzy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Skillzy-Prefix.pch"; sourceTree = "<group>"; };
+		F85409C6198404D5006D3A7C /* SLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAppDelegate.h; sourceTree = "<group>"; };
+		F85409C7198404D5006D3A7C /* SLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
+		F85409CA198404D5006D3A7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F85409CC198404D5006D3A7C /* SLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLViewController.h; sourceTree = "<group>"; };
+		F85409CD198404D5006D3A7C /* SLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		F85409CF198404D5006D3A7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F85409D5198404D6006D3A7C /* SkillzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85409D6198404D6006D3A7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F85409DE198404D6006D3A7C /* SkillzyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkillzyTests-Info.plist"; sourceTree = "<group>"; };
+		F85409E0198404D6006D3A7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F85409E2198404D6006D3A7C /* SkillzyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkillzyTests.m; sourceTree = "<group>"; };
+		F85409EC19840C42006D3A7C /* IWanttoWork.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IWanttoWork.jpg; sourceTree = "<group>"; };
+		F85409EE19840FBC006D3A7C /* INeedWorkDone2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = INeedWorkDone2.jpg; sourceTree = "<group>"; };
+		F85409F019840FC2006D3A7C /* INeedWorkDone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = INeedWorkDone.jpg; sourceTree = "<group>"; };
+		F85409F2198443FE006D3A7C /* SLSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSignInViewController.h; sourceTree = "<group>"; };
+		F85409F3198443FE006D3A7C /* SLSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSignInViewController.m; sourceTree = "<group>"; };
+		F85409F519844E08006D3A7C /* SLEmployerSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEmployerSignupViewController.h; sourceTree = "<group>"; };
+		F85409F619844E08006D3A7C /* SLEmployerSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployerSignupViewController.m; sourceTree = "<group>"; };
+		F85409FB19844E48006D3A7C /* SLEmployeeSignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEmployeeSignupViewController.h; sourceTree = "<group>"; };
+		F85409FC19844E48006D3A7C /* SLEmployeeSignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployeeSignupViewController.m; sourceTree = "<group>"; };
+		F8FF2E6919848AD500B4F405 /* SLEmployerDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEmployerDashboardViewController.h; sourceTree = "<group>"; };
+		F8FF2E6A19848AD500B4F405 /* SLEmployerDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployerDashboardViewController.m; sourceTree = "<group>"; };
+		F8FF2E6C19848B4900B4F405 /* CafeStartup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CafeStartup.jpg; sourceTree = "<group>"; };
+		F8FF2E6E1984953600B4F405 /* SLEmployerCreateProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLEmployerCreateProjectViewController.h; sourceTree = "<group>"; };
+		F8FF2E6F1984953600B4F405 /* SLEmployerCreateProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLEmployerCreateProjectViewController.m; sourceTree = "<group>"; };
+		F8FF2E711984989A00B4F405 /* guitar_music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guitar_music.jpg; sourceTree = "<group>"; };
+		F8FF2E73198498FC00B4F405 /* cooking_food.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cooking_food.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85409B1198404D5006D3A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85409BA198404D5006D3A7C /* CoreGraphics.framework in Frameworks */,
+				F85409BC198404D5006D3A7C /* UIKit.framework in Frameworks */,
+				F85409B8198404D5006D3A7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85409D2198404D6006D3A7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85409D7198404D6006D3A7C /* XCTest.framework in Frameworks */,
+				F85409D9198404D6006D3A7C /* UIKit.framework in Frameworks */,
+				F85409D8198404D6006D3A7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85409AB198404D5006D3A7C = {
+			isa = PBXGroup;
+			children = (
+				F85409BD198404D5006D3A7C /* Skillzy */,
+				F85409DC198404D6006D3A7C /* SkillzyTests */,
+				F85409B6198404D5006D3A7C /* Frameworks */,
+				F85409B5198404D5006D3A7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85409B5198404D5006D3A7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85409B4198404D5006D3A7C /* Skillzy.app */,
+				F85409D5198404D6006D3A7C /* SkillzyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85409B6198404D5006D3A7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85409B7198404D5006D3A7C /* Foundation.framework */,
+				F85409B9198404D5006D3A7C /* CoreGraphics.framework */,
+				F85409BB198404D5006D3A7C /* UIKit.framework */,
+				F85409D6198404D6006D3A7C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F85409BD198404D5006D3A7C /* Skillzy */ = {
+			isa = PBXGroup;
+			children = (
+				F85409C6198404D5006D3A7C /* SLAppDelegate.h */,
+				F85409C7198404D5006D3A7C /* SLAppDelegate.m */,
+				F85409C9198404D5006D3A7C /* Main.storyboard */,
+				F8FF2E6E1984953600B4F405 /* SLEmployerCreateProjectViewController.h */,
+				F8FF2E6F1984953600B4F405 /* SLEmployerCreateProjectViewController.m */,
+				F8FF2E6919848AD500B4F405 /* SLEmployerDashboardViewController.h */,
+				F8FF2E6A19848AD500B4F405 /* SLEmployerDashboardViewController.m */,
+				F85409F519844E08006D3A7C /* SLEmployerSignupViewController.h */,
+				F85409F619844E08006D3A7C /* SLEmployerSignupViewController.m */,
+				F85409FB19844E48006D3A7C /* SLEmployeeSignupViewController.h */,
+				F85409FC19844E48006D3A7C /* SLEmployeeSignupViewController.m */,
+				F85409CC198404D5006D3A7C /* SLViewController.h */,
+				F85409CD198404D5006D3A7C /* SLViewController.m */,
+				F85409F2198443FE006D3A7C /* SLSignInViewController.h */,
+				F85409F3198443FE006D3A7C /* SLSignInViewController.m */,
+				F85409CF198404D5006D3A7C /* Images.xcassets */,
+				F85409BE198404D5006D3A7C /* Supporting Files */,
+			);
+			path = Skillzy;
+			sourceTree = "<group>";
+		};
+		F85409BE198404D5006D3A7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8FF2E73198498FC00B4F405 /* cooking_food.jpeg */,
+				F8FF2E711984989A00B4F405 /* guitar_music.jpg */,
+				F8FF2E6C19848B4900B4F405 /* CafeStartup.jpg */,
+				F85409F019840FC2006D3A7C /* INeedWorkDone.jpg */,
+				F85409EE19840FBC006D3A7C /* INeedWorkDone2.jpg */,
+				F85409EC19840C42006D3A7C /* IWanttoWork.jpg */,
+				F85409BF198404D5006D3A7C /* Skillzy-Info.plist */,
+				F85409C0198404D5006D3A7C /* InfoPlist.strings */,
+				F85409C3198404D5006D3A7C /* main.m */,
+				F85409C5198404D5006D3A7C /* Skillzy-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F85409DC198404D6006D3A7C /* SkillzyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F85409E2198404D6006D3A7C /* SkillzyTests.m */,
+				F85409DD198404D6006D3A7C /* Supporting Files */,
+			);
+			path = SkillzyTests;
+			sourceTree = "<group>";
+		};
+		F85409DD198404D6006D3A7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F85409DE198404D6006D3A7C /* SkillzyTests-Info.plist */,
+				F85409DF198404D6006D3A7C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85409B3198404D5006D3A7C /* Skillzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85409E6198404D6006D3A7C /* Build configuration list for PBXNativeTarget "Skillzy" */;
+			buildPhases = (
+				F85409B0198404D5006D3A7C /* Sources */,
+				F85409B1198404D5006D3A7C /* Frameworks */,
+				F85409B2198404D5006D3A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skillzy;
+			productName = Skillzy;
+			productReference = F85409B4198404D5006D3A7C /* Skillzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85409D4198404D6006D3A7C /* SkillzyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85409E9198404D6006D3A7C /* Build configuration list for PBXNativeTarget "SkillzyTests" */;
+			buildPhases = (
+				F85409D1198404D6006D3A7C /* Sources */,
+				F85409D2198404D6006D3A7C /* Frameworks */,
+				F85409D3198404D6006D3A7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85409DB198404D6006D3A7C /* PBXTargetDependency */,
+			);
+			name = SkillzyTests;
+			productName = SkillzyTests;
+			productReference = F85409D5198404D6006D3A7C /* SkillzyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85409AC198404D5006D3A7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SunLoveSystems;
+				TargetAttributes = {
+					F85409D4198404D6006D3A7C = {
+						TestTargetID = F85409B3198404D5006D3A7C;
+					};
+				};
+			};
+			buildConfigurationList = F85409AF198404D5006D3A7C /* Build configuration list for PBXProject "Skillzy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85409AB198404D5006D3A7C;
+			productRefGroup = F85409B5198404D5006D3A7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85409B3198404D5006D3A7C /* Skillzy */,
+				F85409D4198404D6006D3A7C /* SkillzyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85409B2198404D5006D3A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85409D0198404D5006D3A7C /* Images.xcassets in Resources */,
+				F85409EF19840FBC006D3A7C /* INeedWorkDone2.jpg in Resources */,
+				F8FF2E6D19848B4900B4F405 /* CafeStartup.jpg in Resources */,
+				F8FF2E74198498FC00B4F405 /* cooking_food.jpeg in Resources */,
+				F8FF2E721984989A00B4F405 /* guitar_music.jpg in Resources */,
+				F85409C2198404D5006D3A7C /* InfoPlist.strings in Resources */,
+				F85409CB198404D5006D3A7C /* Main.storyboard in Resources */,
+				F85409F119840FC2006D3A7C /* INeedWorkDone.jpg in Resources */,
+				F85409ED19840C42006D3A7C /* IWanttoWork.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85409D3198404D6006D3A7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85409E1198404D6006D3A7C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85409B0198404D5006D3A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FF2E701984953600B4F405 /* SLEmployerCreateProjectViewController.m in Sources */,
+				F85409C4198404D5006D3A7C /* main.m in Sources */,
+				F85409F4198443FE006D3A7C /* SLSignInViewController.m in Sources */,
+				F85409FD19844E48006D3A7C /* SLEmployeeSignupViewController.m in Sources */,
+				F85409F719844E08006D3A7C /* SLEmployerSignupViewController.m in Sources */,
+				F85409CE198404D5006D3A7C /* SLViewController.m in Sources */,
+				F8FF2E6B19848AD500B4F405 /* SLEmployerDashboardViewController.m in Sources */,
+				F85409C8198404D5006D3A7C /* SLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85409D1198404D6006D3A7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85409E3198404D6006D3A7C /* SkillzyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85409DB198404D6006D3A7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85409B3198404D5006D3A7C /* Skillzy */;
+			targetProxy = F85409DA198404D6006D3A7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F85409C0198404D5006D3A7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85409C1198404D5006D3A7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F85409C9198404D5006D3A7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85409CA198404D5006D3A7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F85409DF198404D6006D3A7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85409E0198404D6006D3A7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85409E4198404D6006D3A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F85409E5198404D6006D3A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85409E7198404D6006D3A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skillzy/Skillzy-Prefix.pch";
+				INFOPLIST_FILE = "Skillzy/Skillzy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F85409E8198404D6006D3A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skillzy/Skillzy-Prefix.pch";
+				INFOPLIST_FILE = "Skillzy/Skillzy-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F85409EA198404D6006D3A7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skillzy.app/Skillzy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skillzy/Skillzy-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SkillzyTests/SkillzyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F85409EB198404D6006D3A7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Skillzy.app/Skillzy";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Skillzy/Skillzy-Prefix.pch";
+				INFOPLIST_FILE = "SkillzyTests/SkillzyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85409AF198404D5006D3A7C /* Build configuration list for PBXProject "Skillzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85409E4198404D6006D3A7C /* Debug */,
+				F85409E5198404D6006D3A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85409E6198404D6006D3A7C /* Build configuration list for PBXNativeTarget "Skillzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85409E7198404D6006D3A7C /* Debug */,
+				F85409E8198404D6006D3A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85409E9198404D6006D3A7C /* Build configuration list for PBXNativeTarget "SkillzyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85409EA198404D6006D3A7C /* Debug */,
+				F85409EB198404D6006D3A7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F85409AC198404D5006D3A7C /* Project object */;
+}
